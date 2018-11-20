@@ -1,0 +1,25 @@
+En el juego le he puesto 4 tipos de medallas (las tuberías son infinitas):
+	BRONCE para 0 tuberías
+	PLATA para 5 tuberías
+	ORO para 15 tuberías
+	PLATINO para 25 tuberías <- Aquí se termina el juego y abriría la pantalla de Ganar
+
+- Juego hecho con clases
+- Aplicar los patrones State y Singleton
+
+- Añadir un Menú con animaciones	(titulo, suelo y pajaro moviendose)
+- Añadir una pantalla Game Over con animaciones (cartel de puntuaciones moviendose)
+
+- Añadir una pantalla Ganar con animaciones (una lluvia de monedas desde el marcador al SCORE)
+- Añadir monedas que sumen una puntuación a parte de la de pasar las tuberías.
+- Añadir efectos de sonido (en el salto, el golpe, al pasar la tubería y al recoger monedas)
+
+
+Teclas en el Estado Juego:
+G -> ganar
+H -> perder
+
+N -> suma score tuberia
+M -> suma score monedas
+
+ESC -> Salir
