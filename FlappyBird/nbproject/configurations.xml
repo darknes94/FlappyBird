@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>AssetManager.hpp</itemPath>
+      <itemPath>Declaraciones.hpp</itemPath>
+      <itemPath>EstadoGameOver.hpp</itemPath>
+      <itemPath>EstadoJuego.hpp</itemPath>
+      <itemPath>EstadoMenu.hpp</itemPath>
+      <itemPath>EstadosManager.hpp</itemPath>
+      <itemPath>Juego.hpp</itemPath>
+      <itemPath>Marcador.hpp</itemPath>
+      <itemPath>Moneda.hpp</itemPath>
+      <itemPath>Personaje.hpp</itemPath>
+      <itemPath>State.hpp</itemPath>
+      <itemPath>Suelo.hpp</itemPath>
+      <itemPath>TuberiasManager.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>AssetManager.cpp</itemPath>
+      <itemPath>EstadoGameOver.cpp</itemPath>
+      <itemPath>EstadoJuego.cpp</itemPath>
+      <itemPath>EstadoMenu.cpp</itemPath>
+      <itemPath>EstadosManager.cpp</itemPath>
+      <itemPath>Juego.cpp</itemPath>
+      <itemPath>Marcador.cpp</itemPath>
+      <itemPath>Moneda.cpp</itemPath>
+      <itemPath>Personaje.cpp</itemPath>
+      <itemPath>Suelo.cpp</itemPath>
+      <itemPath>TuberiasManager.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/include/SFML</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/lib/x86_64-linux-gnu</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libsfml-window.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libsfml-graphics.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libsfml-system.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/x86_64-linux-gnu/libsfml-audio.so</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="AssetManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AssetManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Declaraciones.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EstadoGameOver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EstadoGameOver.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EstadoJuego.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EstadoJuego.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EstadoMenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EstadoMenu.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EstadosManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EstadosManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Juego.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Juego.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Marcador.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Marcador.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Moneda.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Moneda.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Personaje.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Personaje.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="State.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Suelo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Suelo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TuberiasManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TuberiasManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="AssetManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AssetManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Declaraciones.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EstadoGameOver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EstadoGameOver.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EstadoJuego.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EstadoJuego.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EstadoMenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EstadoMenu.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EstadosManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EstadosManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Juego.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Juego.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Marcador.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Marcador.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Moneda.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Moneda.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Personaje.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Personaje.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="State.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Suelo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Suelo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TuberiasManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TuberiasManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
